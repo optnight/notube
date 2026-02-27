@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: #0d0d0d;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 header {
@@ -13,27 +13,20 @@ header {
   border-bottom: 1px solid #222;
 }
 
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-}
-
 button {
   background: #1a1a1a;
   border: 1px solid #333;
   color: white;
   padding: 8px 15px;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
 }
 
 button:hover {
   background: #333;
-  transform: scale(1.05);
 }
 
-input {
+input, textarea {
   padding: 8px;
   margin: 5px;
   border-radius: 8px;
@@ -52,12 +45,7 @@ input {
 .video-card {
   background: #161616;
   padding: 10px;
-  border-radius: 15px;
-  transition: 0.3s;
-}
-
-.video-card:hover {
-  transform: translateY(-5px);
+  border-radius: 12px;
 }
 
 .mobile-mode .video-grid {
